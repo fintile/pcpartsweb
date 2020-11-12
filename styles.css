@@ -1,0 +1,488 @@
+@media (min-width: 1281px) {
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Poiret";
+    src: url("fonts/PoiretOne-Regular.ttf");
+}
+ 
+
+@font-face {
+    font-family: "Kaushan";
+    src: url("fonts/KaushanScript-Regular.ttf")
+    }
+
+
+body {
+    width:100%;
+    background-color: #e0e0e0;
+}    
+
+.navbar-brand {
+    font-family: "Poiret";
+    font-size: 50px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item { 
+    margin-left: 50px;
+}
+
+.titulo {
+    font-family: "Poiret"; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: "Poiret"; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+ 
+}
+
+form { 
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.modal {
+    text-align: center;
+}
+
+#myDiv {
+    z-index: 100;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+footer {
+    color: whitesmoke;
+    font-size: 13px;
+    background-color: grey;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 250px;
+}
+
+#foot a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#foot{
+    display: flex;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Poiret";
+    src: url("fonts/PoiretOne-Regular.ttf");
+}
+ 
+
+@font-face {
+    font-family: "Kaushan";
+    src: url("fonts/KaushanScript-Regular.ttf")
+    }
+
+
+
+body {
+    width:100%;
+    background-color: #e0e0e0;
+}    
+
+.navbar-brand {
+    font-family: "Poiret";
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item { 
+    margin-left: 50px;
+}
+
+.titulo {
+    font-family: "Poiret"; 
+    font-size: 15px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: "Poiret"; 
+    font-size: 12px;
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    width: 90%;
+}
+
+form { 
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.modal {
+    text-align: center;
+}
+
+#myDiv {
+    z-index: 100;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+footer {
+    color: whitesmoke;
+    font-size: 13px;
+    background-color: grey;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 50px;
+}
+
+#foot a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#foot{
+    display: flex;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Poiret";
+    src: url("fonts/PoiretOne-Regular.ttf");
+}
+ 
+
+@font-face {
+    font-family: "Kaushan";
+    src: url("fonts/KaushanScript-Regular.ttf")
+    }
+
+
+
+body {
+    width:100%;
+    background-color: #e0e0e0;
+}    
+
+.navbar-brand {
+    font-family: "Poiret";
+    font-size: 15px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item { 
+    margin-left: 50px;
+}
+
+.titulo {
+    font-family: "Poiret"; 
+    font-size: 15px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: "Poiret"; 
+    font-size: 12px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+
+form { 
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+.modal {
+    text-align: center;
+}
+
+.card, .card-text, .card-title, .card-body {
+    font-size: 15px;
+}
+
+#myDiv {
+    z-index: 100;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 0; 
+}
+
+footer {
+    color: whitesmoke;
+    font-size: 10px;
+    background-color: grey;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 50px;
+}
+
+#foot a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#foot{
+    display: flex;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}  
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    *
+    {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    @font-face {
+        font-family: "Poiret";
+        src: url("fonts/PoiretOne-Regular.ttf");
+    }
+     
+    
+    @font-face {
+        font-family: "Kaushan";
+        src: url("fonts/KaushanScript-Regular.ttf")
+        }
+    
+    
+    
+    body {
+        width:100%;
+        background-color: #e0e0e0;
+    }    
+    
+    .navbar-brand {
+        font-family: "Poiret";
+        font-size: 15px;
+    }
+    
+    .navbar-nav {
+        margin-left: 50px;
+    }
+    
+    .nav-item { 
+        margin-left: 50px;
+    }
+    
+    .titulo {
+        font-family: "Poiret"; 
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .subtitulo {
+        font-family: "Poiret"; 
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .card {
+        display: inline;
+        align-content: center;
+    }
+
+    
+    form { 
+        margin: 0 auto; 
+        margin-top: 50px;
+    }
+    
+    .modal {
+        text-align: center;
+        font-size: 10px;
+    } 
+
+    #myDiv {
+        z-index: 100;
+    }
+
+    body.modal-open div.modal-backdrop { 
+        z-index: 0; 
+    }
+
+    footer {
+        color: whitesmoke;
+        font-size: 10px;
+        background-color: grey;
+    }
+    
+    footer ul {
+        list-style: none;
+        margin-left: 8px;
+    }
+    
+    #foot a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    #foot {
+        display: flex;
+        font-size: 5px;
+    }
+
+    #foot h6 {
+        font-size: 5px;
+    }
+    
+    .fa {
+        padding: 5px;
+        font-size: 20px;
+        width: 12px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 5px;
+      }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }  
+    
+  }

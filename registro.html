@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Formulario</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel='stylesheet' type='text/css' media='screen' href='styles.css'> 
+    </head> 
+    <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        
+
+        <script>
+            $(document).ready(function(){
+                $( "#datepicker" ).datepicker();
+            });
+        </script>
+        
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="home.html">Forward Tech</a>
+        </nav>
+
+    <form class="w-50">
+        <div class="form-group">
+            <label for="fecha">Nombre</label>
+            <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="emailInput"  required>
+        </div>
+        <div class="form-group">
+          <label for="fecha">Fecha de Nacimiento</label>
+          <input type="text" class="form-control" id="datepicker" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">País</label>
+            <select class="form-control" id="FormControlSelect">
+              <option>-</option>
+              <option>Argentina</option>
+              <option>Chile</option>
+              <option>Colombia</option>
+              <option>Paraguay</option>
+              <option>Uruguay</option>
+              <option>Venezuela</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect">Provincia</label>
+            <small id="provinciaHelp" class="form-text text-muted">*Solo para Argentina</small>
+            <select class="form-control" id="FormControlSelect2">
+              <option>-</option> 
+              <option>Buenos Aires</option>
+              <option>Catamarca</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Córdoba</option>
+              <option>Corrientes</option>
+              <option>Entre Ríos</option>
+              <option>Formosa</option>
+              <option>Jujuy</option>
+              <option>La Pampa</option>
+              <option>La Rioja</option>
+              <option>Mendoza</option>
+              <option>Misiones</option>
+              <option>Neuquén</option>
+              <option>Río Negro</option>
+              <option>Salta</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Santa Cruz</option>
+              <option>Santa Fe</option>
+              <option>Santiago del Estero</option>
+              <option>Tierra del Fuego</option>
+              <option>Tucumán</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+  </body>
+
+</html>
